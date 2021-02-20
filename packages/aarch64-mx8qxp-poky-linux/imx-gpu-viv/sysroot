@@ -123,6 +123,8 @@ drwxr-xr-x -          -                4096 ./usr/include/VX
 -rw-r--r-- -          -               62634 ./usr/include/VX/vxu.h
 -rw-r--r-- -          -                2944 ./usr/include/VX/vx_vendors.h
 drwxr-xr-x -          -                4096 ./usr/lib
+drwxr-xr-x -          -                4096 ./usr/lib/dri
+-rw-r--r-- -          -             3086936 ./usr/lib/dri/vivante_dri.so
 -rw-r--r-- -          -             2390888 ./usr/lib/libCLC.so
 -rw-r--r-- -          -              341360 ./usr/lib/libEGL.so.1.0
 lrwxrwxrwx -          -                  13 ./usr/lib/libEGL.so.1 -> libEGL.so.1.0
