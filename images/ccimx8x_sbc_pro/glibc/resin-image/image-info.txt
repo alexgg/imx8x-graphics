@@ -1,0 +1,13 @@
+DISTRO = balena-os
+DISTRO_VERSION = 2.68.1
+USER_CLASSES = buildstats image-mklibs image-prelink
+IMAGE_CLASSES = image_types_digi image_types_resin license_image
+IMAGE_FEATURES = debug-tweaks read-only-rootfs splash ssh-server-openssh
+IMAGE_LINGUAS = 
+IMAGE_INSTALL = packagegroup-core-boot packagegroup-resin-debugtools packagegroup-resin-connectivity packagegroup-resin
+BAD_RECOMMENDATIONS = shared-mime-info
+NO_RECOMMENDATIONS = 
+PACKAGE_EXCLUDE = 
+ROOTFS_POSTPROCESS_COMMAND = write_package_manifest; license_create_manifest;   ssh_allow_empty_password;  ssh_allow_root_login;  postinst_enable_logging;  rootfs_update_timestamp ;  read_only_rootfs_hook;  write_image_test_data ;  set_systemd_default_target; systemd_create_users; empty_var_volatile;      generate_compressed_kernel_module_deps ;     add_image_flag_file ;     os_release_extra_data ;     resin_boot_dirgen_and_deploy ;     resin_root_quirks ;     resin_boot_sanity_handler ;     balena_udev_rules_sanity_handler ;      sort_passwd; rootfs_reproducible;
+IMAGE_POSTPROCESS_COMMAND =      deploy_image_license_manifest ;     fix_hddimg_symlink ;     resinhup_backwards_compatible_link ;       buildhistory_get_imageinfo ;  generate_hostos_version ; 
+IMAGESIZE = 248068

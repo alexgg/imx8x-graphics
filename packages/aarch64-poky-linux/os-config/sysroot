@@ -1,0 +1,8 @@
+drwxr-xr-x -          -                4096 ./lib
+drwxr-xr-x -          -                4096 ./lib/systemd
+drwxr-xr-x -          -                4096 ./lib/systemd/system
+-rw-r--r-- -          -                 254 ./lib/systemd/system/os-config-devicekey.service
+-rw-r--r-- -          -                 342 ./lib/systemd/system/os-config.service
+-rw-r--r-- -          -                 124 ./lib/systemd/system/os-config.timer
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   9 ./sysroot-providers/os-config

@@ -1,0 +1,781 @@
+drwxr-xr-x root       root             4096 ./bin
+lrwxrwxrwx root       root               19 ./bin/ash -> /bin/busybox.nosuid
+-rwxr-xr-x root       root          1198088 ./bin/bash.bash
+lrwxrwxrwx root       root               14 ./bin/bash -> /bin/bash.bash
+lrwxrwxrwx root       root               14 ./bin/busybox -> busybox.nosuid
+-rwxr-xr-x root       root           719432 ./bin/busybox.nosuid
+-rwsr-xr-x root       root            59376 ./bin/busybox.suid
+lrwxrwxrwx root       root               19 ./bin/cat -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/chattr -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/chgrp -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/chmod -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/chown -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/cp -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/cpio -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/date -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/dd -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/df -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/dmesg -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/dnsdomainname -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/dumpkmap -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/echo -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/egrep -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/false -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/fgrep -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/getopt -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/grep -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/gunzip -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/gzip -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/hostname -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/kill -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/linux32 -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/linux64 -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/ln -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               17 ./bin/login -> /bin/busybox.suid
+lrwxrwxrwx root       root               19 ./bin/ls -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/mkdir -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/mknod -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/mktemp -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/more -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/mount -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/mv -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/netstat -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/nuke -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/pidof -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               17 ./bin/ping6 -> /bin/busybox.suid
+lrwxrwxrwx root       root               17 ./bin/ping -> /bin/busybox.suid
+lrwxrwxrwx root       root               19 ./bin/ps -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/pwd -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/resume -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/rm -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/rmdir -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/run-parts -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/sed -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/setpriv -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               14 ./bin/sh -> /bin/bash.bash
+lrwxrwxrwx root       root               19 ./bin/sleep -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/stat -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/stty -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               17 ./bin/su -> /bin/busybox.suid
+lrwxrwxrwx root       root               19 ./bin/sync -> /bin/busybox.nosuid
+-rwxr-xr-x root       root           125464 ./bin/systemd-hwdb
+lrwxrwxrwx root       root               19 ./bin/tar -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/touch -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/true -> /bin/busybox.nosuid
+-rwxr-xr-x root       root           974744 ./bin/udevadm
+lrwxrwxrwx root       root               19 ./bin/umount -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/uname -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/usleep -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/vi -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/watch -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./bin/zcat -> /bin/busybox.nosuid
+drwxr-xr-x root       root             4096 ./boot
+drwxr-xr-x root       root             4096 ./dev
+crw--w--w- root       root                0 ./dev/console
+drwxr-xr-x root       root             4096 ./etc
+-rw-r--r-- root       root             1076 ./etc/build
+-rw-r--r-- root       root             2880 ./etc/busybox.links.nosuid
+-rw-r--r-- root       root               91 ./etc/busybox.links.suid
+drwxr-xr-x root       root             4096 ./etc/default
+-rw-r--r-- root       root               32 ./etc/e2fsck.conf
+-rw-r--r-- root       root              650 ./etc/fstab
+-rw-r--r-- root       root              483 ./etc/group
+-rw-r--r-- root       root               26 ./etc/host.conf
+-rw-r--r-- root       root              237 ./etc/hosts
+-rw-r--r-- root       root             1633 ./etc/inputrc
+-rw-r--r-- root       root               23 ./etc/issue
+-rw-r--r-- root       root               20 ./etc/issue.net
+-rw-r--r-- root       root             1885 ./etc/ld.so.cache
+-rw-r--r-- root       root               33 ./etc/ld.so.conf
+-rw-r--r-- root       root                0 ./etc/motd
+lrwxrwxrwx root       root               18 ./etc/mtools.conf -> ../run/mtools.conf
+-rw-r--r-- root       root              469 ./etc/nsswitch.conf
+-rw-r--r-- root       root              720 ./etc/passwd
+-rw-r--r-- root       root              984 ./etc/profile
+-rwxr-xr-x root       root              498 ./etc/sdma
+-rw-r--r-- root       root               52 ./etc/shells
+drwxr-xr-x root       root             4096 ./etc/skel
+-rwxr-xr-x root       root              410 ./etc/skel/.bashrc
+-rwxr-xr-x root       root              241 ./etc/skel/.profile
+drwxr-xr-x root       root             4096 ./etc/ssl
+drwxr-xr-x root       root             4096 ./etc/ssl/certs
+drwxr-xr-x root       root             4096 ./etc/ssl/private
+drwxr-xr-x root       root             4096 ./etc/systemd
+drwxr-xr-x root       root             4096 ./etc/systemd/system
+drwxr-xr-x root       root             4096 ./etc/systemd/system/multi-user.target.wants
+lrwxrwxrwx root       root               41 ./etc/systemd/system/multi-user.target.wants/sdma-firmware.service -> /lib/systemd/system/sdma-firmware.service
+drwxr-xr-x root       root             4096 ./etc/systemd/system/sysinit.target.wants
+lrwxrwxrwx root       root               41 ./etc/systemd/system/sysinit.target.wants/run-postinsts.service -> /lib/systemd/system/run-postinsts.service
+drwxr-xr-x root       root             4096 ./etc/terminfo
+drwxr-xr-x root       root             4096 ./etc/terminfo/a
+-rw-r--r-- root       root             1481 ./etc/terminfo/a/ansi
+drwxr-xr-x root       root             4096 ./etc/terminfo/d
+-rw-r--r-- root       root              308 ./etc/terminfo/d/dumb
+drwxr-xr-x root       root             4096 ./etc/terminfo/l
+-rw-r--r-- root       root             1730 ./etc/terminfo/l/linux
+drwxr-xr-x root       root             4096 ./etc/terminfo/r
+-rw-r--r-- root       root             2222 ./etc/terminfo/r/rxvt
+drwxr-xr-x root       root             4096 ./etc/terminfo/s
+-rw-r--r-- root       root             1573 ./etc/terminfo/s/screen
+-rw-r--r-- root       root             1687 ./etc/terminfo/s/screen-256color
+-rw-r--r-- root       root             1004 ./etc/terminfo/s/sun
+drwxr-xr-x root       root             4096 ./etc/terminfo/v
+-rw-r--r-- root       root             1190 ./etc/terminfo/v/vt100
+-rw-r--r-- root       root             1184 ./etc/terminfo/v/vt102
+-rw-r--r-- root       root             1377 ./etc/terminfo/v/vt200
+-rw-r--r-- root       root             1377 ./etc/terminfo/v/vt220
+-rw-r--r-- root       root              470 ./etc/terminfo/v/vt52
+drwxr-xr-x root       root             4096 ./etc/terminfo/x
+-rw-r--r-- root       root             3780 ./etc/terminfo/x/xterm-256color
+-rw-r--r-- root       root             1551 ./etc/terminfo/x/xterm-color
+-rw-r--r-- root       root             2240 ./etc/terminfo/x/xterm-xfree86
+lrwxrwxrwx root       root               11 ./etc/terminfo/x/xterm -> xterm-color
+-rw-r--r-- root       root               15 ./etc/timestamp
+drwxr-xr-x root       root             4096 ./etc/udev
+drwxr-xr-x root       root             4096 ./etc/udev/hwdb.d
+drwxr-xr-x root       root             4096 ./etc/udev/rules.d
+-rw-r--r-- root       root              281 ./etc/udev/udev.conf
+drwxr-xr-x root       root             4096 ./etc/udhcpc.d
+-rwxr-xr-x root       root             2652 ./etc/udhcpc.d/50default
+-rw-r--r-- root       root               15 ./etc/version
+drwxr-xr-x root       root             4096 ./home
+drwx------ root       root             4096 ./home/root
+-rwxr-xr-x root       root             3753 ./init
+drwxr-xr-x root       root             4096 ./init.d
+-rwxr-xr-x root       root              349 ./init.d/000-console_null_workaround
+-rwxr-xr-x root       root             2173 ./init.d/00-debug
+-rwxr-xr-x root       root             1012 ./init.d/01-udev
+-rwxr-xr-x root       root              665 ./init.d/70-prepare
+-rwxr-xr-x root       root             2865 ./init.d/75-fsuuidsinit
+-rwxr-xr-x root       root             1100 ./init.d/87-fsck
+-rwxr-xr-x root       root             2410 ./init.d/88-resindataexpander
+-rwxr-xr-x root       root               68 ./init.d/89-rorootfs
+-rwxr-xr-x root       root             3209 ./init.d/90-rootfs
+-rwxr-xr-x root       root             1259 ./init.d/91-machineid
+-rwxr-xr-x root       root              658 ./init.d/99-finish
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/firmware
+drwxr-xr-x root       root             4096 ./lib/firmware/imx
+drwxr-xr-x root       root             4096 ./lib/firmware/imx/sdma
+-rw-r--r-- root       root             2746 ./lib/firmware/imx/sdma/sdma-imx6q.bin
+-rw-r--r-- root       root             2862 ./lib/firmware/imx/sdma/sdma-imx7d.bin
+drwxr-xr-x root       root             4096 ./lib/firmware/vpu
+-rw-r--r-- root       root           405440 ./lib/firmware/vpu/vpu_fw_imx8_dec.bin
+-rw-r--r-- root       root            91972 ./lib/firmware/vpu/vpu_fw_imx8_enc.bin
+-rwxr-xr-x root       root           140968 ./lib/ld-2.31.so
+lrwxrwxrwx root       root               10 ./lib/ld-linux-aarch64.so.1 -> ld-2.31.so
+-rwxr-xr-x root       root            14512 ./lib/libanl-2.31.so
+lrwxrwxrwx root       root               14 ./lib/libanl.so.1 -> libanl-2.31.so
+-rwxr-xr-x root       root           334736 ./lib/libblkid.so.1.1.0
+lrwxrwxrwx root       root               17 ./lib/libblkid.so.1 -> libblkid.so.1.1.0
+-rwxr-xr-x root       root             6112 ./lib/libBrokenLocale-2.31.so
+lrwxrwxrwx root       root               23 ./lib/libBrokenLocale.so.1 -> libBrokenLocale-2.31.so
+-rwxr-xr-x root       root          1404968 ./lib/libc-2.31.so
+-rw-r--r-- root       root            26768 ./lib/libcap.so.2.32
+lrwxrwxrwx root       root               14 ./lib/libcap.so.2 -> libcap.so.2.32
+-rwxr-xr-x root       root            14152 ./lib/libcom_err.so.2.1
+lrwxrwxrwx root       root               17 ./lib/libcom_err.so.2 -> libcom_err.so.2.1
+lrwxrwxrwx root       root               12 ./lib/libc.so.6 -> libc-2.31.so
+-rwxr-xr-x root       root            14296 ./lib/libdl-2.31.so
+lrwxrwxrwx root       root               13 ./lib/libdl.so.2 -> libdl-2.31.so
+-rwxr-xr-x root       root            36256 ./lib/libe2p.so.2.3
+lrwxrwxrwx root       root               13 ./lib/libe2p.so.2 -> libe2p.so.2.3
+-rwxr-xr-x root       root           417720 ./lib/libext2fs.so.2.4
+lrwxrwxrwx root       root               16 ./lib/libext2fs.so.2 -> libext2fs.so.2.4
+-rwxr-xr-x root       root           624600 ./lib/libm-2.31.so
+-rwxr-xr-x root       root           383464 ./lib/libmount.so.1.1.0
+lrwxrwxrwx root       root               17 ./lib/libmount.so.1 -> libmount.so.1.1.0
+lrwxrwxrwx root       root               12 ./lib/libm.so.6 -> libm-2.31.so
+-rwxr-xr-x root       root            83928 ./lib/libnsl-2.31.so
+lrwxrwxrwx root       root               14 ./lib/libnsl.so.1 -> libnsl-2.31.so
+-rwxr-xr-x root       root            35176 ./lib/libnss_compat-2.31.so
+lrwxrwxrwx root       root               21 ./lib/libnss_compat.so.2 -> libnss_compat-2.31.so
+-rwxr-xr-x root       root            22488 ./lib/libnss_dns-2.31.so
+lrwxrwxrwx root       root               18 ./lib/libnss_dns.so.2 -> libnss_dns-2.31.so
+-rwxr-xr-x root       root            47072 ./lib/libnss_files-2.31.so
+lrwxrwxrwx root       root               20 ./lib/libnss_files.so.2 -> libnss_files-2.31.so
+-rwxr-xr-x root       root           109088 ./lib/libpthread-2.31.so
+lrwxrwxrwx root       root               18 ./lib/libpthread.so.0 -> libpthread-2.31.so
+-rwxr-xr-x root       root            80048 ./lib/libresolv-2.31.so
+lrwxrwxrwx root       root               17 ./lib/libresolv.so.2 -> libresolv-2.31.so
+-rwxr-xr-x root       root            31032 ./lib/librt-2.31.so
+lrwxrwxrwx root       root               13 ./lib/librt.so.1 -> librt-2.31.so
+-rwxr-xr-x root       root           235536 ./lib/libsmartcols.so.1.1.0
+lrwxrwxrwx root       root               21 ./lib/libsmartcols.so.1 -> libsmartcols.so.1.1.0
+-rwxr-xr-x root       root           179224 ./lib/libtinfo.so.5.9
+lrwxrwxrwx root       root               15 ./lib/libtinfo.so.5 -> libtinfo.so.5.9
+-rwxr-xr-x root       root            14296 ./lib/libutil-2.31.so
+lrwxrwxrwx root       root               15 ./lib/libutil.so.1 -> libutil-2.31.so
+-rwxr-xr-x root       root            30680 ./lib/libuuid.so.1.3.0
+lrwxrwxrwx root       root               16 ./lib/libuuid.so.1 -> libuuid.so.1.3.0
+-rwxr-xr-x root       root            92056 ./lib/libz.so.1.2.11
+lrwxrwxrwx root       root               14 ./lib/libz.so.1 -> libz.so.1.2.11
+drwxr-xr-x root       root             4096 ./lib/modules
+drwxr-xr-x root       root             4096 ./lib/security
+-rwxr-xr-x root       root            14072 ./lib/security/pam_cap.so
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/network
+-rw-r--r-- root       root              441 ./lib/systemd/network/99-default.link
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+-rwxr-xr-x root       root           769128 ./lib/systemd/systemd-udevd
+-rw-r--r-- root       root              818 ./lib/systemd/system/initrd-udevadm-cleanup-db.service
+drwxr-xr-x root       root             4096 ./lib/systemd/system-preset
+-rw-r--r-- root       root               29 ./lib/systemd/system-preset/98-firmware-imx-sdma.preset
+-rw-r--r-- root       root               29 ./lib/systemd/system-preset/98-run-postinsts.preset
+-rw-r--r-- root       root              357 ./lib/systemd/system/run-postinsts.service
+-rw-r--r-- root       root              121 ./lib/systemd/system/sdma-firmware.service
+drwxr-xr-x root       root             4096 ./lib/systemd/system/sockets.target.wants
+lrwxrwxrwx root       root               31 ./lib/systemd/system/sockets.target.wants/systemd-udevd-control.socket -> ../systemd-udevd-control.socket
+lrwxrwxrwx root       root               30 ./lib/systemd/system/sockets.target.wants/systemd-udevd-kernel.socket -> ../systemd-udevd-kernel.socket
+drwxr-xr-x root       root             4096 ./lib/systemd/system/sysinit.target.wants
+lrwxrwxrwx root       root               24 ./lib/systemd/system/sysinit.target.wants/systemd-udevd.service -> ../systemd-udevd.service
+lrwxrwxrwx root       root               31 ./lib/systemd/system/sysinit.target.wants/systemd-udev-trigger.service -> ../systemd-udev-trigger.service
+-rw-r--r-- root       root              818 ./lib/systemd/system/systemd-hwdb-update.service
+-rw-r--r-- root       root              635 ./lib/systemd/system/systemd-udevd-control.socket
+-rw-r--r-- root       root              610 ./lib/systemd/system/systemd-udevd-kernel.socket
+-rw-r--r-- root       root             1264 ./lib/systemd/system/systemd-udevd.service
+-rw-r--r-- root       root              857 ./lib/systemd/system/systemd-udev-settle.service
+-rw-r--r-- root       root              763 ./lib/systemd/system/systemd-udev-trigger.service
+drwxr-xr-x root       root             4096 ./lib/udev
+-rwxr-xr-x root       root            75888 ./lib/udev/ata_id
+-rwxr-xr-x root       root            92280 ./lib/udev/cdrom_id
+-rwxr-xr-x root       root           121096 ./lib/udev/fido_id
+-rwxr-xr-x root       root            22512 ./lib/udev/mtd_probe
+-rwxr-xr-x root       root             1683 ./lib/udev/resin_update_state_probe
+drwxr-xr-x root       root             4096 ./lib/udev/rules.d
+-rw-r--r-- root       root               98 ./lib/udev/rules.d/10-zram.rules
+-rw-r--r-- root       root             3860 ./lib/udev/rules.d/50-udev-default.rules
+-rw-r--r-- root       root             7853 ./lib/udev/rules.d/60-autosuspend-chromiumos.rules
+-rw-r--r-- root       root              703 ./lib/udev/rules.d/60-block.rules
+-rw-r--r-- root       root             1071 ./lib/udev/rules.d/60-cdrom_id.rules
+-rw-r--r-- root       root              413 ./lib/udev/rules.d/60-drm.rules
+-rw-r--r-- root       root              974 ./lib/udev/rules.d/60-evdev.rules
+-rw-r--r-- root       root              165 ./lib/udev/rules.d/60-fido-id.rules
+-rw-r--r-- root       root              282 ./lib/udev/rules.d/60-input-id.rules
+-rw-r--r-- root       root              616 ./lib/udev/rules.d/60-persistent-alsa.rules
+-rw-r--r-- root       root             2710 ./lib/udev/rules.d/60-persistent-input.rules
+-rw-r--r-- root       root             7642 ./lib/udev/rules.d/60-persistent-storage.rules
+-rw-r--r-- root       root             2135 ./lib/udev/rules.d/60-persistent-storage-tape.rules
+-rw-r--r-- root       root              769 ./lib/udev/rules.d/60-persistent-v4l.rules
+-rw-r--r-- root       root              866 ./lib/udev/rules.d/60-resin-update-state.rules
+-rw-r--r-- root       root              736 ./lib/udev/rules.d/60-sensor.rules
+-rw-r--r-- root       root             1190 ./lib/udev/rules.d/60-serial.rules
+-rw-r--r-- root       root              565 ./lib/udev/rules.d/61-autosuspend-manual.rules
+-rw-r--r-- root       root              612 ./lib/udev/rules.d/64-btrfs.rules
+-rw-r--r-- root       root              432 ./lib/udev/rules.d/70-joystick.rules
+-rw-r--r-- root       root              734 ./lib/udev/rules.d/70-mouse.rules
+-rw-r--r-- root       root              568 ./lib/udev/rules.d/70-power-switch.rules
+-rw-r--r-- root       root              473 ./lib/udev/rules.d/70-touchpad.rules
+-rw-r--r-- root       root              452 ./lib/udev/rules.d/75-net-description.rules
+-rw-r--r-- root       root              174 ./lib/udev/rules.d/75-probe_mtd.rules
+-rw-r--r-- root       root             4816 ./lib/udev/rules.d/78-sound-card.rules
+-rw-r--r-- root       root              615 ./lib/udev/rules.d/80-drivers.rules
+-rw-r--r-- root       root              292 ./lib/udev/rules.d/80-net-setup-link.rules
+-rw-r--r-- root       root              477 ./lib/udev/rules.d/90-vconsole.rules
+-rw-r--r-- root       root              855 ./lib/udev/rules.d/touchscreen.rules
+-rwxr-xr-x root       root            92792 ./lib/udev/scsi_id
+-rwxr-xr-x root       root            22584 ./lib/udev/v4l_id
+-rwxr-xr-x root       root              816 ./lib/udev/zram-swap-init
+lrwxrwxrwx root       root               19 ./linuxrc -> /bin/busybox.nosuid
+drwxr-xr-x root       root             4096 ./media
+drwxr-xr-x root       root             4096 ./mnt
+dr-xr-xr-x root       root             4096 ./proc
+drwxr-xr-x root       root             4096 ./run
+drwxr-xr-x root       root             4096 ./sbin
+lrwxrwxrwx root       root               19 ./sbin/blkid -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/depmod -> /bin/busybox.nosuid
+-rwxr-xr-x root       root           318176 ./sbin/e2fsck
+-rwxr-xr-x root       root           104568 ./sbin/e2label
+lrwxrwxrwx root       root               19 ./sbin/fdisk -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/fsck -> /bin/busybox.nosuid
+-rwxr-xr-x root       root           318176 ./sbin/fsck.ext2
+-rwxr-xr-x root       root           318176 ./sbin/fsck.ext3
+-rwxr-xr-x root       root           318176 ./sbin/fsck.ext4
+lrwxrwxrwx root       root               19 ./sbin/fstrim -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/getty -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/halt -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/hwclock -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/ifconfig -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/ifdown -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/ifup -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/insmod -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/ip -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/ipneigh -> /bin/busybox.nosuid
+-rwxr-xr-x root       root           592208 ./sbin/ldconfig
+lrwxrwxrwx root       root               19 ./sbin/loadkmap -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/logread -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/losetup -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/lsmod -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/mkdosfs -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/mke2fs -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/mkswap -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/modprobe -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/pivot_root -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/poweroff -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/reboot -> /bin/busybox.nosuid
+-rwxr-xr-x root       root            59280 ./sbin/resize2fs
+lrwxrwxrwx root       root               19 ./sbin/rmmod -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/route -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/run-init -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/setconsole -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/start-stop-daemon -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/sulogin -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/swapoff -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/swapon -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/switch_root -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/sysctl -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./sbin/tc -> /bin/busybox.nosuid
+-rwxr-xr-x root       root           104568 ./sbin/tune2fs.e2fsprogs
+lrwxrwxrwx root       root               23 ./sbin/tune2fs -> /sbin/tune2fs.e2fsprogs
+lrwxrwxrwx root       root               12 ./sbin/udevadm -> /bin/udevadm
+lrwxrwxrwx root       root               26 ./sbin/udevd -> /lib/systemd/systemd-udevd
+lrwxrwxrwx root       root               19 ./sbin/udhcpc -> /bin/busybox.nosuid
+dr-xr-xr-x root       root             4096 ./sys
+drwxrwxrwt root       root             4096 ./tmp
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root             2668 ./usr/bin/amuFormat.sh
+lrwxrwxrwx root       root               19 ./usr/bin/arch -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/awk -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/basename -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/bc -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/[ -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/[[ -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/blkdiscard -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/bunzip2 -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/bzcat -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/chvt -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/clear -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/cmp -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/cut -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/dc -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/deallocvt -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/diff -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/dirname -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/du -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/dumpleases -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/env -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/expr -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/factor -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/fallocate -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/find -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/flock -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/free -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/fuser -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/groups -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/head -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/hexdump -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/hexedit -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/id -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/killall -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/link -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/logger -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/logname -> /bin/busybox.nosuid
+-rwxr-xr-x root       root           145376 ./usr/bin/lsblk
+lrwxrwxrwx root       root               19 ./usr/bin/lsscsi -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/lzcat -> /bin/busybox.nosuid
+lrwxrwxrwx root       root                2 ./usr/bin/lz -> uz
+lrwxrwxrwx root       root                6 ./usr/bin/mattrib -> mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mbadblocks -> mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mcat -> mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mcd -> mtools
+-rwxr-xr-x root       root             1679 ./usr/bin/mcheck
+lrwxrwxrwx root       root                6 ./usr/bin/mclasserase -> mtools
+-rwxr-xr-x root       root              847 ./usr/bin/mcomp
+lrwxrwxrwx root       root                6 ./usr/bin/mcopy -> mtools
+lrwxrwxrwx root       root               19 ./usr/bin/md5sum -> /bin/busybox.nosuid
+lrwxrwxrwx root       root                6 ./usr/bin/mdel -> mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mdeltree -> mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mdir -> mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mdu -> mtools
+lrwxrwxrwx root       root               19 ./usr/bin/mesg -> /bin/busybox.nosuid
+lrwxrwxrwx root       root                6 ./usr/bin/mformat -> mtools
+lrwxrwxrwx root       root               19 ./usr/bin/microcom -> /bin/busybox.nosuid
+lrwxrwxrwx root       root                6 ./usr/bin/minfo -> mtools
+lrwxrwxrwx root       root               19 ./usr/bin/mkfifo -> /bin/busybox.nosuid
+-rwxr-xr-x root       root            14328 ./usr/bin/mkmanifest
+lrwxrwxrwx root       root               19 ./usr/bin/mkpasswd -> /bin/busybox.nosuid
+lrwxrwxrwx root       root                6 ./usr/bin/mlabel -> mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mmd -> mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mmount -> mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mmove -> mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mpartition -> mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mrd -> mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mren -> mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mshortname -> mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mshowfat -> mtools
+-rwxr-xr-x root       root           188608 ./usr/bin/mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mtoolstest -> mtools
+lrwxrwxrwx root       root                6 ./usr/bin/mtype -> mtools
+-rwxr-xr-x root       root              784 ./usr/bin/mxtar
+lrwxrwxrwx root       root                6 ./usr/bin/mzip -> mtools
+lrwxrwxrwx root       root               19 ./usr/bin/nc -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/nl -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/nohup -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/nproc -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/nsenter -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/nslookup -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/od -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/openvt -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               17 ./usr/bin/passwd -> /bin/busybox.suid
+lrwxrwxrwx root       root               19 ./usr/bin/paste -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/patch -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/printf -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/readlink -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/realpath -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/renice -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/reset -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/resize -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/seq -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/setfattr -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/sha1sum -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/sha256sum -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/shred -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/shuf -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/sort -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/ssl_client -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/strings -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/svc -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/svok -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/tail -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/tee -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/telnet -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/test -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/tftp -> /bin/busybox.nosuid
+-rwxr-xr-x root       root             2295 ./usr/bin/tgz
+lrwxrwxrwx root       root               19 ./usr/bin/time -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/top -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               17 ./usr/bin/traceroute -> /bin/busybox.suid
+lrwxrwxrwx root       root               19 ./usr/bin/tr -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/ts -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/tty -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/uniq -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/unlink -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/unshare -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/unzip -> /bin/busybox.nosuid
+-rwxr-xr-x root       root             4678 ./usr/bin/update-alternatives
+lrwxrwxrwx root       root               19 ./usr/bin/uptime -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/users -> /bin/busybox.nosuid
+-rwxr-xr-x root       root             2541 ./usr/bin/uz
+lrwxrwxrwx root       root               17 ./usr/bin/vlock -> /bin/busybox.suid
+lrwxrwxrwx root       root               19 ./usr/bin/w -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/wc -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/wget -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/which -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/whoami -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/who -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/xargs -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/xxd -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/xzcat -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/bin/yes -> /bin/busybox.nosuid
+drwxr-xr-x root       root             4096 ./usr/games
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            14232 ./usr/lib/e2initrd_helper
+drwxr-xr-x root       root             4096 ./usr/libexec
+-rwxrwxr-x root       root             4708 ./usr/libexec/os-helpers-fs
+-rwxrwxr-x root       root              902 ./usr/libexec/os-helpers-logging
+-rwxr-xr-x root       root           974744 ./usr/libexec/udevadm
+drwxr-xr-x root       root             4096 ./usr/lib/gconv
+-rwxr-xr-x root       root            56353 ./usr/lib/gconv/gconv-modules
+-rwxr-xr-x root       root            14208 ./usr/lib/gconv/IBM437.so
+-rwxr-xr-x root       root            14208 ./usr/lib/gconv/IBM850.so
+-rwxr-xr-x root       root            14208 ./usr/lib/gconv/IBM851.so
+-rwxr-xr-x root       root            14208 ./usr/lib/gconv/IBM852.so
+-rwxr-xr-x root       root            14208 ./usr/lib/gconv/IBM855.so
+-rwxr-xr-x root       root            14208 ./usr/lib/gconv/IBM857.so
+-rwxr-xr-x root       root            14208 ./usr/lib/gconv/IBM860.so
+-rwxr-xr-x root       root            14208 ./usr/lib/gconv/IBM861.so
+-rwxr-xr-x root       root            14208 ./usr/lib/gconv/IBM862.so
+-rwxr-xr-x root       root            14208 ./usr/lib/gconv/IBM863.so
+-rwxr-xr-x root       root            14208 ./usr/lib/gconv/IBM865.so
+-rwxr-xr-x root       root            14208 ./usr/lib/gconv/IBM866.so
+-rwxr-xr-x root       root            14208 ./usr/lib/gconv/IBM869.so
+-rwxr-xr-x root       root            34696 ./usr/lib/libacl.so.1.1.2253
+lrwxrwxrwx root       root               18 ./usr/lib/libacl.so.1 -> libacl.so.1.1.2253
+-rwxr-xr-x root       root            22352 ./usr/lib/libattr.so.1.1.2448
+lrwxrwxrwx root       root               19 ./usr/lib/libattr.so.1 -> libattr.so.1.1.2448
+-rwxr-xr-x root       root            42776 ./usr/lib/libhistory.so.8.0
+lrwxrwxrwx root       root               17 ./usr/lib/libhistory.so.8 -> libhistory.so.8.0
+-rwxr-xr-x root       root            79800 ./usr/lib/libkmod.so.2.3.4
+lrwxrwxrwx root       root               16 ./usr/lib/libkmod.so.2 -> libkmod.so.2.3.4
+-rwxr-xr-x root       root            91992 ./usr/lib/libparted-fs-resize.so.0.0.2
+lrwxrwxrwx root       root               28 ./usr/lib/libparted-fs-resize.so.0 -> libparted-fs-resize.so.0.0.2
+-rwxr-xr-x root       root           384992 ./usr/lib/libparted.so.2.0.2
+lrwxrwxrwx root       root               18 ./usr/lib/libparted.so.2 -> libparted.so.2.0.2
+-rwxr-xr-x root       root           334624 ./usr/lib/libreadline.so.8.0
+lrwxrwxrwx root       root               18 ./usr/lib/libreadline.so.8 -> libreadline.so.8.0
+drwxr-xr-x root       root             4096 ./usr/lib/opkg
+drwxr-xr-x root       root             4096 ./usr/lib/opkg/alternatives
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/[[
+-rw-r--r-- root       root               42 ./usr/lib/opkg/alternatives/addgroup
+-rw-r--r-- root       root               41 ./usr/lib/opkg/alternatives/adduser
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/arch
+-rw-r--r-- root       root               32 ./usr/lib/opkg/alternatives/ash
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/awk
+-rw-r--r-- root       root               41 ./usr/lib/opkg/alternatives/basename
+-rw-r--r-- root       root               29 ./usr/lib/opkg/alternatives/bash
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/bc
+-rw-r--r-- root       root               43 ./usr/lib/opkg/alternatives/blkdiscard
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/blkid
+-rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/bunzip2
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/bzcat
+-rw-r--r-- root       root               32 ./usr/lib/opkg/alternatives/cat
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/chattr
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/chgrp
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/chmod
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/chown
+-rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/chroot
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/chvt
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/clear
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/cmp
+-rw-r--r-- root       root               31 ./usr/lib/opkg/alternatives/cp
+-rw-r--r-- root       root               33 ./usr/lib/opkg/alternatives/cpio
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/cut
+-rw-r--r-- root       root               33 ./usr/lib/opkg/alternatives/date
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/dc
+-rw-r--r-- root       root               31 ./usr/lib/opkg/alternatives/dd
+-rw-r--r-- root       root               42 ./usr/lib/opkg/alternatives/deallocvt
+-rw-r--r-- root       root               42 ./usr/lib/opkg/alternatives/delgroup
+-rw-r--r-- root       root               41 ./usr/lib/opkg/alternatives/deluser
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/depmod
+-rw-r--r-- root       root               31 ./usr/lib/opkg/alternatives/df
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/diff
+-rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/dirname
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/dmesg
+-rw-r--r-- root       root               42 ./usr/lib/opkg/alternatives/dnsdomainname
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/du
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/dumpkmap
+-rw-r--r-- root       root               43 ./usr/lib/opkg/alternatives/dumpleases
+-rw-r--r-- root       root               33 ./usr/lib/opkg/alternatives/echo
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/egrep
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/env
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/expr
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/factor
+-rw-r--r-- root       root               42 ./usr/lib/opkg/alternatives/fallocate
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/false
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/fbset
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/fdisk
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/fgrep
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/find
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/flock
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/free
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/fsck
+-rw-r--r-- root       root               42 ./usr/lib/opkg/alternatives/fsfreeze
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/fstrim
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/fuser
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/getopt
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/getty
+-rw-r--r-- root       root               33 ./usr/lib/opkg/alternatives/grep
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/groups
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/gunzip
+-rw-r--r-- root       root               33 ./usr/lib/opkg/alternatives/gzip
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/halt
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/head
+-rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/hexdump
+-rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/hexedit
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/hostname
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/hwclock
+-rw-r--r-- root       root               45 ./usr/lib/opkg/alternatives/i2ctransfer
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/id
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/ifconfig
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/ifdown
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/ifup
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/insmod
+-rw-r--r-- root       root               32 ./usr/lib/opkg/alternatives/ip
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/ipneigh
+-rw-r--r-- root       root               33 ./usr/lib/opkg/alternatives/kill
+-rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/killall
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/lbracket
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/link
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/linux32
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/linux64
+-rw-r--r-- root       root               32 ./usr/lib/opkg/alternatives/linuxrc
+-rw-r--r-- root       root               31 ./usr/lib/opkg/alternatives/ln
+-rw-r--r-- root       root               42 ./usr/lib/opkg/alternatives/loadfont
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/loadkmap
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/logger
+-rw-r--r-- root       root               32 ./usr/lib/opkg/alternatives/login
+-rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/logname
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/logread
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/losetup
+-rw-r--r-- root       root               31 ./usr/lib/opkg/alternatives/ls
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/lsmod
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/lsscsi
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/lzcat
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/md5sum
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/mesg
+-rw-r--r-- root       root               41 ./usr/lib/opkg/alternatives/microcom
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/mkdir
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/mkdosfs
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/mke2fs
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/mkfifo
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/mknod
+-rw-r--r-- root       root               41 ./usr/lib/opkg/alternatives/mkpasswd
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/mkswap
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/mktemp
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/modprobe
+-rw-r--r-- root       root               33 ./usr/lib/opkg/alternatives/more
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/mount
+-rw-r--r-- root       root               31 ./usr/lib/opkg/alternatives/mv
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/nc
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/netstat
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/nl
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/nohup
+-rw-r--r-- root       root               41 ./usr/lib/opkg/alternatives/nologin
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/nproc
+-rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/nsenter
+-rw-r--r-- root       root               41 ./usr/lib/opkg/alternatives/nslookup
+-rw-r--r-- root       root               33 ./usr/lib/opkg/alternatives/nuke
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/od
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/openvt
+-rw-r--r-- root       root               74 ./usr/lib/opkg/alternatives/partprobe
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/passwd
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/paste
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/patch
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/pidof
+-rw-r--r-- root       root               31 ./usr/lib/opkg/alternatives/ping
+-rw-r--r-- root       root               32 ./usr/lib/opkg/alternatives/ping6
+-rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/pivot_root
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/poweroff
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/printf
+-rw-r--r-- root       root               31 ./usr/lib/opkg/alternatives/ps
+-rw-r--r-- root       root               32 ./usr/lib/opkg/alternatives/pwd
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/rdate
+-rw-r--r-- root       root               41 ./usr/lib/opkg/alternatives/readlink
+-rw-r--r-- root       root               41 ./usr/lib/opkg/alternatives/realpath
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/reboot
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/renice
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/reset
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/resize
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/resume
+-rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/rfkill
+-rw-r--r-- root       root               31 ./usr/lib/opkg/alternatives/rm
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/rmdir
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/rmmod
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/route
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/run-init
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/run-parts
+-rw-r--r-- root       root               32 ./usr/lib/opkg/alternatives/sed
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/seq
+-rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/setconsole
+-rw-r--r-- root       root               41 ./usr/lib/opkg/alternatives/setfattr
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/setpriv
+-rw-r--r-- root       root               50 ./usr/lib/opkg/alternatives/sh
+-rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/sha1sum
+-rw-r--r-- root       root               42 ./usr/lib/opkg/alternatives/sha256sum
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/shred
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/shuf
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/sleep
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/sort
+-rw-r--r-- root       root               43 ./usr/lib/opkg/alternatives/ssl_client
+-rw-r--r-- root       root               47 ./usr/lib/opkg/alternatives/start-stop-daemon
+-rw-r--r-- root       root               33 ./usr/lib/opkg/alternatives/stat
+-rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/strings
+-rw-r--r-- root       root               33 ./usr/lib/opkg/alternatives/stty
+-rw-r--r-- root       root               29 ./usr/lib/opkg/alternatives/su
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/sulogin
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/svc
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/svok
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/swapoff
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/swapon
+-rw-r--r-- root       root               41 ./usr/lib/opkg/alternatives/switch_root
+-rw-r--r-- root       root               33 ./usr/lib/opkg/alternatives/sync
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/sysctl
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/tail
+-rw-r--r-- root       root               32 ./usr/lib/opkg/alternatives/tar
+-rw-r--r-- root       root               32 ./usr/lib/opkg/alternatives/tc
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/tee
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/telnet
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/test
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/tftp
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/time
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/top
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/touch
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/tr
+-rw-r--r-- root       root               41 ./usr/lib/opkg/alternatives/traceroute
+-rw-r--r-- root       root               33 ./usr/lib/opkg/alternatives/true
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/ts
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/tty
+-rw-r--r-- root       root               42 ./usr/lib/opkg/alternatives/tune2fs
+-rw-r--r-- root       root               43 ./usr/lib/opkg/alternatives/ubirename
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/udhcpc
+-rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/udhcpd
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/umount
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/uname
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/uniq
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/unlink
+-rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/unshare
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/unzip
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/uptime
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/users
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/usleep
+-rw-r--r-- root       root               31 ./usr/lib/opkg/alternatives/vi
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/vlock
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/w
+-rw-r--r-- root       root               34 ./usr/lib/opkg/alternatives/watch
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/wc
+-rw-r--r-- root       root               37 ./usr/lib/opkg/alternatives/wget
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/which
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/who
+-rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/whoami
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/xargs
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/xxd
+-rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/xzcat
+-rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/yes
+-rw-r--r-- root       root               33 ./usr/lib/opkg/alternatives/zcat
+drwxr-xr-x root       root             4096 ./usr/lib/ssl-1.1
+lrwxrwxrwx root       root               22 ./usr/lib/ssl-1.1/certs -> ../../../etc/ssl/certs
+-rw-r--r-- root       root              412 ./usr/lib/ssl-1.1/ct_log_list.cnf
+-rw-r--r-- root       root              412 ./usr/lib/ssl-1.1/ct_log_list.cnf.dist
+lrwxrwxrwx root       root               24 ./usr/lib/ssl-1.1/private -> ../../../etc/ssl/private
+drwxr-xr-x root       root             4096 ./usr/sbin
+lrwxrwxrwx root       root               19 ./usr/sbin/addgroup -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/sbin/adduser -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/sbin/chroot -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/sbin/delgroup -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/sbin/deluser -> /bin/busybox.nosuid
+lrwxrwxrwx root       root                8 ./usr/sbin/dosfsck -> fsck.fat
+lrwxrwxrwx root       root               19 ./usr/sbin/fbset -> /bin/busybox.nosuid
+-rwxr-xr-x root       root            59368 ./usr/sbin/fsck.fat
+lrwxrwxrwx root       root                8 ./usr/sbin/fsck.msdos -> fsck.fat
+lrwxrwxrwx root       root                8 ./usr/sbin/fsck.vfat -> fsck.fat
+lrwxrwxrwx root       root               19 ./usr/sbin/fsfreeze -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/sbin/i2ctransfer -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/sbin/loadfont -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/sbin/nologin -> /bin/busybox.nosuid
+-rwxr-xr-x root       root            80040 ./usr/sbin/parted
+-rwxr-xr-x root       root            14312 ./usr/sbin/partprobe.parted
+lrwxrwxrwx root       root               26 ./usr/sbin/partprobe -> /usr/sbin/partprobe.parted
+lrwxrwxrwx root       root               19 ./usr/sbin/rdate -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/sbin/rfkill -> /bin/busybox.nosuid
+-rwxr-xr-x root       root             1986 ./usr/sbin/run-postinsts
+lrwxrwxrwx root       root               19 ./usr/sbin/ubirename -> /bin/busybox.nosuid
+lrwxrwxrwx root       root               19 ./usr/sbin/udhcpd -> /bin/busybox.nosuid
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/bash-completion
+drwxr-xr-x root       root             4096 ./usr/share/bash-completion/completions
+-rw-r--r-- root       root             8146 ./usr/share/bash-completion/completions/udevadm
+drwxr-xr-x root       root             4096 ./usr/share/dict
+drwxr-xr-x root       root             4096 ./usr/share/info
+drwxr-xr-x root       root             4096 ./usr/share/man
+drwxr-xr-x root       root             4096 ./usr/share/misc
+drwxr-xr-x root       root             4096 ./usr/share/udhcpc
+-rwxr-xr-x root       root               49 ./usr/share/udhcpc/default.script
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./var
+drwxr-xr-x root       root             4096 ./var/backups
+drwxr-xr-x root       root             4096 ./var/cache
+drwx------ root       root             4096 ./var/cache/ldconfig
+-rw------- root       root             1976 ./var/cache/ldconfig/aux-cache
+drwxr-xr-x root       root             4096 ./var/cache/opkg
+drwxr-xr-x root       root             4096 ./var/lib
+drwxr-xr-x root       root             4096 ./var/lib/misc
+drwxr-xr-x root       root             4096 ./var/lib/opkg
+drwxr-xr-x root       root             4096 ./var/local
+lrwxrwxrwx root       root               11 ./var/lock -> ../run/lock
+lrwxrwxrwx root       root               12 ./var/log -> volatile/log
+lrwxrwxrwx root       root                6 ./var/run -> ../run
+drwxr-xr-x root       root             4096 ./var/spool
+lrwxrwxrwx root       root               12 ./var/tmp -> volatile/tmp
+drwxr-xr-x root       root             4096 ./var/volatile

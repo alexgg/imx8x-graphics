@@ -1,0 +1,99 @@
+drwxr-xr-x -          -                4096 ./lib
+-rwxr-xr-x -          -               95904 ./lib/libply.so.4.0.0
+lrwxrwxrwx -          -                  15 ./lib/libply.so.4 -> libply.so.4.0.0
+lrwxrwxrwx -          -                  15 ./lib/libply.so -> libply.so.4.0.0
+-rwxr-xr-x -          -              100056 ./lib/libply-splash-core.so.4.0.0
+lrwxrwxrwx -          -                  27 ./lib/libply-splash-core.so.4 -> libply-splash-core.so.4.0.0
+lrwxrwxrwx -          -                  27 ./lib/libply-splash-core.so -> libply-splash-core.so.4.0.0
+drwxr-xr-x -          -                4096 ./lib/systemd
+drwxr-xr-x -          -                4096 ./lib/systemd/system
+drwxr-xr-x -          -                4096 ./lib/systemd/system/halt.target.wants
+lrwxrwxrwx -          -                  24 ./lib/systemd/system/halt.target.wants/plymouth-halt.service -> ../plymouth-halt.service
+drwxr-xr-x -          -                4096 ./lib/systemd/system/initrd-switch-root.target.wants
+lrwxrwxrwx -          -                  25 ./lib/systemd/system/initrd-switch-root.target.wants/plymouth-start.service -> ../plymouth-start.service
+lrwxrwxrwx -          -                  31 ./lib/systemd/system/initrd-switch-root.target.wants/plymouth-switch-root.service -> ../plymouth-switch-root.service
+drwxr-xr-x -          -                4096 ./lib/systemd/system/kexec.target.wants
+lrwxrwxrwx -          -                  25 ./lib/systemd/system/kexec.target.wants/plymouth-kexec.service -> ../plymouth-kexec.service
+drwxr-xr-x -          -                4096 ./lib/systemd/system/multi-user.target.wants
+-rw-r--r-- -          -                 507 ./lib/systemd/system/plymouth-halt.service
+-rw-r--r-- -          -                 521 ./lib/systemd/system/plymouth-kexec.service
+-rw-r--r-- -          -                 516 ./lib/systemd/system/plymouth-poweroff.service
+-rw-r--r-- -          -                 229 ./lib/systemd/system/plymouth-quit.service
+-rw-r--r-- -          -                 235 ./lib/systemd/system/plymouth-quit-wait.service
+-rw-r--r-- -          -                 279 ./lib/systemd/system/plymouth-read-write.service
+-rw-r--r-- -          -                 511 ./lib/systemd/system/plymouth-reboot.service
+-rw-r--r-- -          -                 677 ./lib/systemd/system/plymouth-start.service
+-rw-r--r-- -          -                 326 ./lib/systemd/system/plymouth-switch-root.service
+drwxr-xr-x -          -                4096 ./lib/systemd/system/poweroff.target.wants
+lrwxrwxrwx -          -                  28 ./lib/systemd/system/poweroff.target.wants/plymouth-poweroff.service -> ../plymouth-poweroff.service
+drwxr-xr-x -          -                4096 ./lib/systemd/system/reboot.target.wants
+lrwxrwxrwx -          -                  26 ./lib/systemd/system/reboot.target.wants/plymouth-reboot.service -> ../plymouth-reboot.service
+drwxr-xr-x -          -                4096 ./lib/systemd/system/sysinit.target.wants
+lrwxrwxrwx -          -                  30 ./lib/systemd/system/sysinit.target.wants/plymouth-read-write.service -> ../plymouth-read-write.service
+lrwxrwxrwx -          -                  25 ./lib/systemd/system/sysinit.target.wants/plymouth-start.service -> ../plymouth-start.service
+-rw-r--r-- -          -                 454 ./lib/systemd/system/systemd-ask-password-plymouth.path
+-rw-r--r-- -          -                 431 ./lib/systemd/system/systemd-ask-password-plymouth.service
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   8 ./sysroot-providers/plymouth
+-rw-r--r-- -          -                   8 ./sysroot-providers/virtual_psplash
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+drwxr-xr-x -          -                4096 ./usr/include/plymouth-1
+drwxr-xr-x -          -                4096 ./usr/include/plymouth-1/ply
+drwxr-xr-x -          -                4096 ./usr/include/plymouth-1/ply-boot-client
+-rw-r--r-- -          -               11893 ./usr/include/plymouth-1/ply-boot-client/ply-boot-client.h
+-rw-r--r-- -          -                2666 ./usr/include/plymouth-1/ply-boot-client/ply-boot-protocol.h
+-rw-r--r-- -          -                1842 ./usr/include/plymouth-1/ply/ply-array.h
+-rw-r--r-- -          -                1939 ./usr/include/plymouth-1/ply/ply-bitarray.h
+-rw-r--r-- -          -                2450 ./usr/include/plymouth-1/ply/ply-buffer.h
+-rw-r--r-- -          -                4872 ./usr/include/plymouth-1/ply/ply-command-parser.h
+-rw-r--r-- -          -                4397 ./usr/include/plymouth-1/ply/ply-event-loop.h
+-rw-r--r-- -          -                2846 ./usr/include/plymouth-1/ply/ply-hashtable.h
+-rw-r--r-- -          -                2085 ./usr/include/plymouth-1/ply/ply-key-file.h
+-rw-r--r-- -          -                2691 ./usr/include/plymouth-1/ply/ply-list.h
+-rw-r--r-- -          -                7224 ./usr/include/plymouth-1/ply/ply-logger.h
+-rw-r--r-- -          -                1919 ./usr/include/plymouth-1/ply/ply-progress.h
+-rw-r--r-- -          -                4484 ./usr/include/plymouth-1/ply/ply-rectangle.h
+-rw-r--r-- -          -                1589 ./usr/include/plymouth-1/ply/ply-region.h
+-rw-r--r-- -          -                3865 ./usr/include/plymouth-1/ply/ply-terminal-session.h
+-rw-r--r-- -          -                2011 ./usr/include/plymouth-1/ply/ply-trigger.h
+-rw-r--r-- -          -                4662 ./usr/include/plymouth-1/ply/ply-utils.h
+drwxr-xr-x -          -                4096 ./usr/include/plymouth-1/ply-splash-core
+-rw-r--r-- -          -                4664 ./usr/include/plymouth-1/ply-splash-core/ply-boot-splash.h
+-rw-r--r-- -          -                4592 ./usr/include/plymouth-1/ply-splash-core/ply-boot-splash-plugin.h
+-rw-r--r-- -          -                3944 ./usr/include/plymouth-1/ply-splash-core/ply-device-manager.h
+-rw-r--r-- -          -                3782 ./usr/include/plymouth-1/ply-splash-core/ply-keyboard.h
+-rw-r--r-- -          -                8900 ./usr/include/plymouth-1/ply-splash-core/ply-pixel-buffer.h
+-rw-r--r-- -          -                3073 ./usr/include/plymouth-1/ply-splash-core/ply-pixel-display.h
+-rw-r--r-- -          -                3592 ./usr/include/plymouth-1/ply-splash-core/ply-renderer.h
+-rw-r--r-- -          -                3246 ./usr/include/plymouth-1/ply-splash-core/ply-renderer-plugin.h
+-rw-r--r-- -          -                5208 ./usr/include/plymouth-1/ply-splash-core/ply-terminal.h
+-rw-r--r-- -          -                4214 ./usr/include/plymouth-1/ply-splash-core/ply-text-display.h
+-rw-r--r-- -          -                2210 ./usr/include/plymouth-1/ply-splash-core/ply-text-progress-bar.h
+-rw-r--r-- -          -                1828 ./usr/include/plymouth-1/ply-splash-core/ply-text-step-bar.h
+drwxr-xr-x -          -                4096 ./usr/include/plymouth-1/ply-splash-graphics
+-rw-r--r-- -          -                2300 ./usr/include/plymouth-1/ply-splash-graphics/ply-animation.h
+-rw-r--r-- -          -                2746 ./usr/include/plymouth-1/ply-splash-graphics/ply-entry.h
+-rw-r--r-- -          -                2091 ./usr/include/plymouth-1/ply-splash-graphics/ply-image.h
+-rw-r--r-- -          -                2774 ./usr/include/plymouth-1/ply-splash-graphics/ply-label.h
+-rw-r--r-- -          -                3376 ./usr/include/plymouth-1/ply-splash-graphics/ply-label-plugin.h
+-rw-r--r-- -          -                3509 ./usr/include/plymouth-1/ply-splash-graphics/ply-progress-animation.h
+-rw-r--r-- -          -                2468 ./usr/include/plymouth-1/ply-splash-graphics/ply-progress-bar.h
+-rw-r--r-- -          -                2336 ./usr/include/plymouth-1/ply-splash-graphics/ply-throbber.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -               22168 ./usr/lib/libply-boot-client.so.4.0.0
+lrwxrwxrwx -          -                  27 ./usr/lib/libply-boot-client.so.4 -> libply-boot-client.so.4.0.0
+lrwxrwxrwx -          -                  27 ./usr/lib/libply-boot-client.so -> libply-boot-client.so.4.0.0
+-rwxr-xr-x -          -               38552 ./usr/lib/libply-splash-graphics.so.4.0.0
+lrwxrwxrwx -          -                  31 ./usr/lib/libply-splash-graphics.so.4 -> libply-splash-graphics.so.4.0.0
+lrwxrwxrwx -          -                  31 ./usr/lib/libply-splash-graphics.so -> libply-splash-graphics.so.4.0.0
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 273 ./usr/lib/pkgconfig/ply-boot-client.pc
+-rw-r--r-- -          -                 404 ./usr/lib/pkgconfig/ply-splash-core.pc
+-rw-r--r-- -          -                 351 ./usr/lib/pkgconfig/ply-splash-graphics.pc
+drwxr-xr-x -          -                4096 ./usr/lib/plymouth
+drwxr-xr-x -          -                4096 ./usr/lib/plymouth/renderers
+-rwxr-xr-x -          -               22408 ./usr/lib/plymouth/renderers/frame-buffer.so
+-rwxr-xr-x -          -               79752 ./usr/lib/plymouth/script.so
+drwxr-xr-x -          -                4096 ./usr/share
+drwxr-xr-x -          -                4096 ./usr/share/plymouth

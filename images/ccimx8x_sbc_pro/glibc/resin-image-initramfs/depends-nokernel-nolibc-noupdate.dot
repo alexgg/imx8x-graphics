@@ -1,0 +1,91 @@
+digraph depends {
+    node [shape=plaintext]
+"bash" -> "base-files"
+"bash" -> "libtinfo5"
+"busybox" -> "busybox-udhcpc" [style=dotted]
+"busybox" -> "openssl"
+"e2fsprogs-e2fsck" -> "libblkid1"
+"e2fsprogs-e2fsck" -> "libcom-err2"
+"e2fsprogs-e2fsck" -> "libe2p2"
+"e2fsprogs-e2fsck" -> "libext2fs2"
+"e2fsprogs-e2fsck" -> "libuuid1"
+"e2fsprogs-resize2fs" -> "libcom-err2"
+"e2fsprogs-resize2fs" -> "libe2p2"
+"e2fsprogs-resize2fs" -> "libext2fs2"
+"e2fsprogs-tune2fs" -> "libblkid1"
+"e2fsprogs-tune2fs" -> "libcom-err2"
+"e2fsprogs-tune2fs" -> "libe2p2"
+"e2fsprogs-tune2fs" -> "libext2fs2"
+"e2fsprogs-tune2fs" -> "libuuid1"
+"firmware-imx-sdma" -> "bash"
+"glibc-gconv-ibm437" -> "glibc-gconv"
+"glibc-gconv-ibm850" -> "glibc-gconv"
+"glibc-gconv-ibm851" -> "glibc-gconv"
+"glibc-gconv-ibm852" -> "glibc-gconv"
+"glibc-gconv-ibm855" -> "glibc-gconv"
+"glibc-gconv-ibm857" -> "glibc-gconv"
+"glibc-gconv-ibm860" -> "glibc-gconv"
+"glibc-gconv-ibm861" -> "glibc-gconv"
+"glibc-gconv-ibm862" -> "glibc-gconv"
+"glibc-gconv-ibm863" -> "glibc-gconv"
+"glibc-gconv-ibm865" -> "glibc-gconv"
+"glibc-gconv-ibm866" -> "glibc-gconv"
+"glibc-gconv-ibm869" -> "glibc-gconv"
+"initramfs-framework-base" -> "initramfs-module-rootfs" [style=dotted]
+"initramfs-module-console-null-workaround" -> "initramfs-framework-base"
+"initramfs-module-debug" -> "initramfs-framework-base"
+"initramfs-module-fsck" -> "dosfstools-fsck"
+"initramfs-module-fsck" -> "e2fsprogs-e2fsck"
+"initramfs-module-fsck" -> "initramfs-framework-base"
+"initramfs-module-fsuuidsinit" -> "initramfs-framework-base"
+"initramfs-module-machineid" -> "initramfs-framework-base"
+"initramfs-module-machineid" -> "initramfs-module-udev"
+"initramfs-module-prepare" -> "initramfs-framework-base"
+"initramfs-module-prepare" -> "os-helpers-fs"
+"initramfs-module-prepare" -> "os-helpers-logging"
+"initramfs-module-resindataexpander" -> "busybox"
+"initramfs-module-resindataexpander" -> "e2fsprogs-resize2fs"
+"initramfs-module-resindataexpander" -> "initramfs-framework-base"
+"initramfs-module-resindataexpander" -> "initramfs-module-udev"
+"initramfs-module-resindataexpander" -> "parted"
+"initramfs-module-resindataexpander" -> "util-linux-lsblk"
+"initramfs-module-rootfs" -> "initramfs-framework-base"
+"initramfs-module-rorootfs" -> "initramfs-framework-base"
+"initramfs-module-udev" -> "initramfs-framework-base"
+"initramfs-module-udev" -> "udev"
+"libacl1" -> "libattr1"
+"libext2fs2" -> "libblkid1"
+"libext2fs2" -> "libcom-err2"
+"libkmod2" -> "libz1"
+"libmount1" -> "libblkid1"
+"libreadline8" -> "libtinfo5"
+"libtinfo5" -> "ncurses-terminfo-base" [style=dotted]
+"mtools" -> "glibc-gconv-ibm437" [style=dotted]
+"mtools" -> "glibc-gconv-ibm737" [style=dotted]
+"mtools" -> "glibc-gconv-ibm775" [style=dotted]
+"mtools" -> "glibc-gconv-ibm850"
+"mtools" -> "glibc-gconv-ibm851" [style=dotted]
+"mtools" -> "glibc-gconv-ibm852" [style=dotted]
+"mtools" -> "glibc-gconv-ibm855" [style=dotted]
+"mtools" -> "glibc-gconv-ibm857" [style=dotted]
+"mtools" -> "glibc-gconv-ibm860" [style=dotted]
+"mtools" -> "glibc-gconv-ibm861" [style=dotted]
+"mtools" -> "glibc-gconv-ibm862" [style=dotted]
+"mtools" -> "glibc-gconv-ibm863" [style=dotted]
+"mtools" -> "glibc-gconv-ibm865" [style=dotted]
+"mtools" -> "glibc-gconv-ibm866" [style=dotted]
+"mtools" -> "glibc-gconv-ibm869" [style=dotted]
+"os-helpers-fs" -> "e2fsprogs-tune2fs"
+"os-helpers-fs" -> "mtools"
+"parted" -> "libblkid1"
+"parted" -> "libreadline8"
+"parted" -> "libtinfo5"
+"parted" -> "libuuid1"
+"udev" -> "libacl1"
+"udev" -> "libblkid1"
+"udev" -> "libcap2"
+"udev" -> "libkmod2"
+"util-linux-lsblk" -> "libblkid1"
+"util-linux-lsblk" -> "libmount1"
+"util-linux-lsblk" -> "libsmartcols1"
+}

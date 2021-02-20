@@ -1,0 +1,25 @@
+ccimx8x-sbc-pro: resin-image-flasher configured for balena-os 2.68.1
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "aarch64-poky-linux"
+MACHINE              = "ccimx8x-sbc-pro"
+DISTRO               = "balena-os"
+DISTRO_VERSION       = "2.68.1"
+TUNE_FEATURES        = "aarch64"
+TARGET_FPU           = ""
+meta                 
+meta-poky            = "dunfell:40e448301edf142dc00a0ae6190017adac1e57b2"
+meta-oe              
+meta-filesystems     
+meta-networking      
+meta-python          = "dunfell:f2d02cb71eaff8eb285a1997b30be52486c160ae"
+meta-freescale       = "dunfell:89af59c2c208f707dd9ab9934c31e0ba8419c4e1"
+meta-balena-common   
+meta-balena-dunfell  = "heads/v2.68.1:1ffaf68cf64dbf37b8a8acd1a62b64a0d104d193"
+meta-balena-connectcore = "master:3e3e97fbbb43d51108bcfb1a4580accb5fee4760"
+meta-digi-arm        = "zeus:0c44a150d0403856c9b66569dc2d8e449f219188"
+meta-rust            = "master:f56fd4ec6835d68c4e9f8a9630963acd34d172e5"
+
